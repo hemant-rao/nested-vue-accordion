@@ -69,7 +69,7 @@ export default {
 };
 </script>
 <style scoped>
-@import url("@/assets/accordion.css");
+@import url("nested-vue-accordion/assets/accordion.css");
 
 .accordion {
   /* display: flex;
