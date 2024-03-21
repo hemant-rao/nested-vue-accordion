@@ -69,51 +69,6 @@ export default {
 };
 </script>
 <style scoped>
-.accordion {
-  /* display: flex;
-    flex-direction: column; */
-  margin: 0;
-  padding: 0;
-}
-
-.accordion-button {
-  border: none;
-  cursor: pointer;
-  padding: 16px 18px;
-  text-align: left;
-  width: 100%;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  transition: 0.3s;
-}
-.accordion-button[aria-expanded="true"] {
-  background-color: #f3f3f3;
-}
-.accordion-button:hover {
-  opacity: 0.8;
-}
-.accordion-button:focus {
-  box-shadow: none;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-}
-.accordion-content {
-  padding: 0 0 0 18px;
-  transition: max-height 0.3s ease-in-out;
-}
-.content-style {
-  padding: 16px 18px;
-  border: 1px solid #ddd;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  display: flex;
-  max-width: 200px;
-  max-height: 200px;
-}
-.have-child .no-child {
-  display: inline-block;
-  margin-right: 15px;
-}
 /* default css for accordion start here */
 .accordion {
   --bs-accordion-color: var(--bs-body-color);
@@ -263,5 +218,51 @@ export default {
   --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%236ea8fe'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 /* default css for accordion end here */
+
+.accordion {
+  /* display: flex;
+    flex-direction: column; */
+  margin: 0;
+  padding: 0;
+}
+
+.accordion-button {
+  border: none;
+  cursor: pointer;
+  padding: 16px 18px;
+  text-align: left;
+  width: 100%;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  transition: 0.3s;
+}
+.accordion-button[aria-expanded="true"] {
+  background-color: #f3f3f3;
+}
+.accordion-button:hover {
+  opacity: 0.8;
+}
+.accordion-button:focus {
+  box-shadow: none;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.accordion-content {
+  padding: 0 0 0 18px;
+  transition: max-height 0.3s ease-in-out;
+}
+.content-style {
+  padding: 16px 18px;
+  border: 1px solid #ddd;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  max-width: 200px;
+  max-height: 200px;
+}
+.have-child .no-child {
+  display: inline-block;
+  margin-right: 15px;
+}
 </style>
 nested-vue-accordiona/src/MultilevelAccordion.vue
