@@ -27,7 +27,7 @@ Here's a basic example demonstrating how to use Nested Vue Accordion:
 </template>
 
 <script>
-import NestedVueAccordion from 'nested-vue-accordion';
+import { NestedVueAccordion } from 'nested-vue-accordion';
 
 export default {
   name: 'Parent-component',
@@ -62,7 +62,7 @@ Here's a more advanced example demonstrating nested accordion panels:
 </template>
 
 <script>
-import NestedVueAccordion from 'nested-vue-accordion';
+import { NestedVueAccordion } from 'nested-vue-accordion';
 
 export default {
   name: 'AccordionExample',
