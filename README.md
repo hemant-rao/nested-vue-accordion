@@ -38,14 +38,50 @@ export default {
     return {
       accordionItems: [
         {
-          title: 'Panel 1',
+          title: "Category A",
           children: [
-            { title: 'Subpanel 1' },
-            { title: 'Subpanel 2' },
+            {
+              title: "Subcategory 1",
+              children: [
+                {
+                  title: "Item 1",
+                },
+                {
+                  title: "Item 2",
+                },
+              ],
+            },
+            {
+              title: "Subcategory 2",
+              children: [
+                {
+                  title: "Item 3",
+                },
+                {
+                  title: "Item 4",
+                },
+              ],
+            },
           ],
         },
         {
-          title: 'Panel 2',
+          title: "Category B",
+          children: [
+            {
+              title: "Item 5",
+            },
+            {
+              title: "Subcategory 3",
+              children: [
+                {
+                  title: "Item 6",
+                },
+                {
+                  title: "Item 7",
+                },
+              ],
+            },
+          ],
         },
       ],
     };
@@ -73,23 +109,57 @@ export default {
     return {
       accordionItems: [
         {
-          title: 'Section 1',
+          title: "Category A",
           children: [
-            { title: 'Subsection 1.1' },
-            { title: 'Subsection 1.2' },
+            {
+              title: "Subcategory 1",
+              children: [
+                {
+                  title: "Item 1",
+                },
+                {
+                  title: "Item 2",
+                },
+              ],
+            },
+            {
+              title: "Subcategory 2",
+              children: [
+                {
+                  title: "Item 3",
+                },
+                {
+                  title: "Item 4",
+                },
+              ],
+            },
           ],
         },
         {
-          title: 'Section 2',
+          title: "Category B",
           children: [
             {
-              title: 'Subsection 2.1',
+              title: "Subcategory 3",
               children: [
-                { title: 'Sub-subsection 2.1.1' },
-                { title: 'Sub-subsection 2.1.2' },
+                {
+                  title: "Item 5",
+                },
+                {
+                  title: "Item 6",
+                },
               ],
             },
-            { title: 'Subsection 2.2' },
+            {
+              title: "Subcategory 4",
+              children: [
+                {
+                  title: "Item 7",
+                },
+                {
+                  title: "Item 8",
+                },
+              ],
+            },
           ],
         },
       ],
@@ -105,3 +175,4 @@ For detailed documentation and customization options, please visit the [Nested V
 ## Contributing
 
 Contributions are welcome! Please feel free to open an issue or submit a pull request.
+```
