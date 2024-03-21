@@ -8,6 +8,10 @@ Nested Vue Accordion is a lightweight and versatile Vue.js component that enable
 - **Flexible Configuration:** Customize the appearance and behavior of the accordion through simple props.
 - **Lightweight and Performant:** Built with Vue.js, Nested Vue Accordion is lightweight and optimized for performance.
 
+![Demo GIF](https://raw.githubusercontent.com/hemant-rao/nested-vue-accordion/main/assets/demo.gif.gif)
+
+[Demo here](https://stackblitz.com/edit/nested-vue-accordion) (Vue3)
+
 ## Installation
 
 You can install Nested Vue Accordion via npm:
